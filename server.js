@@ -1409,7 +1409,7 @@ client.on("message", message => {
 client.on("guildCreate", hama => {
   if (hama.memberCount < 100) {
     console.log(
-      `  name ( ${hama.name} ) zhmaray memberakan ( ${hama.memberCount}) created by MrHAMA`
+      `  name ( ${hama.name} ) zhmaray memberakan ( ${hama.memberCount}) created by DeV`
     ); //by MrHAMA
     hama.leave();
   }
