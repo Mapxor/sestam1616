@@ -19,8 +19,8 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "s/";
-client.login("");
+const prefix = "s!";
+client.login("NzczOTU1MTU0ODM1NTM3OTQx.X6Qv6A.w_xavtKRKcJ8SxpIa_Frx4bR0x0");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
